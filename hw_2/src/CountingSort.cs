@@ -6,7 +6,7 @@ namespace Sorting
     public static class Sorts<T>
         where T : IComparable
     {
-		static public void CountingSort(int[] items, int k)
+	static public void CountingSort(int[] items, int k)
         {
             int[] arr = new int[k + 1];
             int[] sorted = new int[items.Length];
@@ -24,5 +24,5 @@ namespace Sorting
                 arr[items[i]]--;
             }
         }
-	}
+    }
 }
