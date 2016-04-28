@@ -51,7 +51,7 @@ namespace Sorting
                 int l, r;
                 int j;
 
-                for (int i = 0; i < Ways - 1; i++)
+                for (int i = 0; i < Ways - 1 & i < temp.Length; i++)
                 {
                     l = start + length * i;
                     r = start + length * i + length - 1;
